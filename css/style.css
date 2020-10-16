@@ -1,0 +1,83 @@
+/*div div{display: inline-block;}*/
+/*@-webkit-keyframes white {
+	0% {
+		transform:background-color(#7bc846);
+	}
+	5% {
+		transform:background-color(#ffffff);
+	}
+	100% {
+		transform:background-color(#7bc846);
+	}
+}*/
+.box{
+	display: flex;
+	width: 100%;
+	height: 100%;
+
+}
+.red{
+	width: 0.5%;
+	height: 100%;
+	background-color: #fd5b1d;
+
+}
+.green{
+	width: 0.5%;
+	height: 100%;
+	background-color: #7bc846;
+/*
+	transition-property: background-color;
+
+	animation-name: white;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	*/
+}
+.blue{
+	width: 0.5%;
+	height: 100%;
+	background-color: #0b46cd;
+	
+}
+.white{
+	width: 0.5%;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.title{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 700;
+	font-size: 4.5em;
+	line-height: 85px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+}
+.date{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	
+}
+.place{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	
+}
+.cursor{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 500px;
+}
